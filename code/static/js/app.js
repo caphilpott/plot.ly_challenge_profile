@@ -1,5 +1,5 @@
 // To run locally run "Python -m http.server" from gitbash at this folder level
-//create function to manage and provide "id" feed all the plots
+//create function to manage and provide "id" feed all the plots 
 function getPlots(id) {
   // Use D3 fetch to read the JSON file
       d3.json("samples.json").then (sampledata =>{
