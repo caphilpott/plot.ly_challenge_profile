@@ -24,7 +24,7 @@ function getPlots(id) {
         // view/confirm label values
           console.log (label)
 
-        // slice to first ten otu ids values and reverse to reset  
+        // slice to first ten otu ids values and reverse to reset   
         // (Note: sample values already in sort order)
           let otu_Ids = ( samples.otu_ids.slice(0, 10)).reverse();
       
