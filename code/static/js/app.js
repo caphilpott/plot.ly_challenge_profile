@@ -60,7 +60,7 @@ function getPlots(id) {
           // Create the data array for our plot
           let data = [trace];
   
-          // Define the plot layout
+          // Define the plot layout 
           var layout = {
               title: "Top 10 Otu's",
               yaxis:{
