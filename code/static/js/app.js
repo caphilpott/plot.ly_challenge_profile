@@ -156,7 +156,7 @@ function getPlots(id) {
         // clear the demographic info panel each time prior to refresh
          demographicInfo.html("");
   
-        // get the demographic data for the id and append the retrieved data 
+        // get the demographic data for the id and append the retrieved data   
           Object.entries(result).forEach((key) => {   
               demographicInfo.append("h5").text(key[0].toLowerCase() + ": " + key[1] + "\n");    
           });
