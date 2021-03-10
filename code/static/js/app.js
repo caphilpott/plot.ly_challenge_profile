@@ -4,21 +4,21 @@ function getPlots(id) {
   // Use D3 fetch to read the JSON file
       d3.json("samples.json").then (sampledata =>{
         
-        // view/confirm sample log 
+        // view/confirm sample log
           console.log(sampledata)
 
         // filter samples by entered/default id 
         let samples = sampledata.samples.filter(smpl => smpl.id.toString() === id)[0];
           
         // slice to first ten sample values and reverse to reset 
-        // (Note: sample values already in sort order)
+        // (Note: sample values already in sort order) 
           let sampleValues =  samples.sample_values.slice(0,10).reverse();
 
-        // view/confirm sample values
+        // view/confirm sample values  
           console.log(sampleValues)
         
         // set lable list and limit to first ten by slicing
-        // (Note: sample values already in sort order)
+        // (Note: sample values already in sort order) 
           let label =  samples.otu_labels.slice(0,10);
 
         // view/confirm label values
