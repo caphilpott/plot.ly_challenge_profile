@@ -31,7 +31,7 @@ function getPlots(id) {
 	    	// view/confirm otu_Ids
 			  console.log (otu_Ids)
 
-        // map otu_Ids to plot form
+        // map otu_Ids to plot form 
           let otu_Id = otu_Ids.map(d => "Otu " + d);
           
         // view/confirm mapped otu Id  
