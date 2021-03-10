@@ -135,7 +135,7 @@ function getPlots(id) {
 
 
 
-  // Establish function to get the necessary demographic data
+  // Establish function to get the necessary demographic data  
   function getDemoData(id) {
   
     // Use D3 fetch to read the JSON file
