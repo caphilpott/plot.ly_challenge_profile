@@ -147,7 +147,7 @@ function getPlots(id) {
         // confirm/view metadata
           console.log(metadata)
   
-        // filter meta data info by first id (index = 0)
+        // filter meta data info by first id (index = 0) 
          let result = metadata.filter(meta => meta.id.toString() === id)[0];
         
         // select demographic panel to post the data
