@@ -94,7 +94,7 @@ function getPlots(id) {
           // Create the data array for our bubble chart
           let data_1 = [trace_1];
 
-          // Define the plot layout for the bubble chart
+          // Define the plot layout for the bubble chart 
           let layout_1 = {
             xaxis:{title: "Otu ID"},
             height: 450,
