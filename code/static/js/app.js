@@ -153,7 +153,7 @@ function getPlots(id) {
         // select demographic panel to post the data
          let demographicInfo = d3.select("#sample-metadata");
           
-        // clear the demographic info panel each time prior to refresh
+        // clear the demographic info panel each time prior to refresh 
          demographicInfo.html("");
   
         // get the demographic data for the id and append the retrieved data   
