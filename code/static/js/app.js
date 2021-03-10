@@ -162,7 +162,7 @@ function getPlots(id) {
           });
       });
   }
-  // create the change event function
+  // create the change event function 
   function optionChanged(id) {
       getPlots(id);
       getDemoData(id);
