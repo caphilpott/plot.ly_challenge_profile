@@ -168,7 +168,7 @@ function getPlots(id) {
       getDemoData(id);
   }
   
-  // create the function for the on-open render
+  // create the function for the on-open render  
   function initiate() {
       
       // select dropdown menu 
