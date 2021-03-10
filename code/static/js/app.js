@@ -46,7 +46,7 @@ function getPlots(id) {
         // view/confirm washing frequency data
         console.log("Washing Freq: " + wfreq);
           
-        // Create the trace for bar plot
+        // Create the trace for bar plot 
           let trace = {
               x: sampleValues,
               y: otu_Id,
@@ -120,7 +120,7 @@ function getPlots(id) {
           // Create the data array for our guage chart
           let data_2 = [trace_2]
       
-          // Define the plot layout for the guage chart
+          // Define the plot layout for the guage chart 
           let layout_2 = { 
           width: 700, 
           height: 600, 
